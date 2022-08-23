@@ -317,9 +317,9 @@ dotnet_naming_rule.local_functions_should_be_camelCase.severity = warning
 dotnet_naming_rule.local_functions_should_be_camelCase.symbols = local_functions
 dotnet_naming_rule.local_functions_should_be_camelCase.style = camelCase
 ### default
-# dotnet_naming_rule.local_functions_should_be_pascalcase.severity = suggestion
-# dotnet_naming_rule.local_functions_should_be_pascalcase.symbols = local_functions
-# dotnet_naming_rule.local_functions_should_be_pascalcase.style = pascalcase
+# dotnet_naming_rule.local_functions_should_be_PascalCase.severity = suggestion
+# dotnet_naming_rule.local_functions_should_be_PascalCase.symbols = local_functions
+# dotnet_naming_rule.local_functions_should_be_PascalCase.style = PascalCase
 
 ## delegates
 
