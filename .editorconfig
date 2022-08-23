@@ -21,7 +21,7 @@ max_line_length = 80 # default: ???
 ## using directive options
 
 dotnet_sort_system_directives_first = true # default: true
-dotnet_separate_import_directive_groups = false # default: true
+dotnet_separate_import_directive_groups = true # default: true
 
 ## dotnet namespace options
 
