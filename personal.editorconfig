@@ -8,7 +8,7 @@ root = true
 [*]
 indent_style = space # default: space
 indent_size = 2 # default: 4 for cs
-end_of_line = crlf # default: crlf
+end_of_line = lf # default: crlf
 charset = utf-8 # default: utf-8-bom, DISCOURAGED
 trim_trailing_whitespace = true # default: ???
 insert_final_newline = true # default: false
@@ -16,9 +16,6 @@ max_line_length = 80 # default: ???
 
 
 [*.cs]
-
-indent_size = 4
-
 # .net formatting
 
 ## using directive options
@@ -28,16 +25,16 @@ dotnet_separate_import_directive_groups = true # default: true
 
 ## dotnet namespace options
 
-dotnet_style_namespace_match_folder = false # default: ???
+dotnet_style_namespace_match_folder = true # default: ???
 
 # c# formatting
 
 ## new-line options
 
-csharp_new_line_before_open_brace = all # default: all
-csharp_new_line_before_else = true # default: true
-csharp_new_line_before_catch = true # default: true
-csharp_new_line_before_finally = true # default: true
+csharp_new_line_before_open_brace = none # default: all
+csharp_new_line_before_else = false # default: true
+csharp_new_line_before_catch = false # default: true
+csharp_new_line_before_finally = false # default: true
 csharp_new_line_before_members_in_object_initializers = true # default: true
 csharp_new_line_before_members_in_anonymous_types = true # default: true
 csharp_new_line_between_query_expression_clauses = true # default: true
@@ -154,9 +151,9 @@ dotnet_naming_rule.type_parameters_should_be_TPascalCase.style = TPascalCase
 dotnet_naming_symbols.methods.applicable_kinds = method
 dotnet_naming_symbols.methods.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
 dotnet_naming_symbols.methods.required_modifiers =
-dotnet_naming_rule.methods_should_be_PascalCase.severity = warning
-dotnet_naming_rule.methods_should_be_PascalCase.symbols = methods
-dotnet_naming_rule.methods_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.methods_should_be_camelCase.severity = warning
+dotnet_naming_rule.methods_should_be_camelCase.symbols = methods
+dotnet_naming_rule.methods_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.methods_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.methods_should_be_PascalCase.symbols = methods
@@ -167,9 +164,9 @@ dotnet_naming_rule.methods_should_be_PascalCase.style = PascalCase
 dotnet_naming_symbols.properties.applicable_kinds = property
 dotnet_naming_symbols.properties.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
 dotnet_naming_symbols.properties.required_modifiers =
-dotnet_naming_rule.properties_should_be_PascalCase.severity = warning
-dotnet_naming_rule.properties_should_be_PascalCase.symbols = properties
-dotnet_naming_rule.properties_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.properties_should_be_camelCase.severity = warning
+dotnet_naming_rule.properties_should_be_camelCase.symbols = properties
+dotnet_naming_rule.properties_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.properties_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.properties_should_be_PascalCase.symbols = properties
@@ -180,9 +177,9 @@ dotnet_naming_rule.properties_should_be_PascalCase.style = PascalCase
 dotnet_naming_symbols.events.applicable_kinds = event
 dotnet_naming_symbols.events.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
 dotnet_naming_symbols.events.required_modifiers =
-dotnet_naming_rule.events_should_be_PascalCase.severity = warning
-dotnet_naming_rule.events_should_be_PascalCase.symbols = events
-dotnet_naming_rule.events_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.events_should_be_camelCase.severity = warning
+dotnet_naming_rule.events_should_be_camelCase.symbols = events
+dotnet_naming_rule.events_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.events_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.events_should_be_PascalCase.symbols = events
@@ -202,9 +199,9 @@ dotnet_naming_rule.local_variables_should_be_camelCase.style = camelCase
 dotnet_naming_symbols.local_constants.applicable_kinds = local
 dotnet_naming_symbols.local_constants.applicable_accessibilities = local
 dotnet_naming_symbols.local_constants.required_modifiers = const
-dotnet_naming_rule.local_constants_should_be_camelCase.severity = warning
-dotnet_naming_rule.local_constants_should_be_camelCase.symbols = local_constants
-dotnet_naming_rule.local_constants_should_be_camelCase.style = camelCase
+dotnet_naming_rule.local_constants_should_be_SCREAMING_SNAKE_CASE.severity = warning
+dotnet_naming_rule.local_constants_should_be_SCREAMING_SNAKE_CASE.symbols = local_constants
+dotnet_naming_rule.local_constants_should_be_SCREAMING_SNAKE_CASE.style = SCREAMING_SNAKE_CASE
 ### default
 # dotnet_naming_rule.local_constants_should_be_camelCase.severity = suggestion
 # dotnet_naming_rule.local_constants_should_be_camelCase.symbols = local_constants
@@ -224,9 +221,9 @@ dotnet_naming_rule.parameters_should_be_camelCase.style = camelCase
 dotnet_naming_symbols.public_fields.applicable_kinds = field
 dotnet_naming_symbols.public_fields.applicable_accessibilities = public, internal
 dotnet_naming_symbols.public_fields.required_modifiers =
-dotnet_naming_rule.public_fields_should_be_PascalCase.severity = warning
-dotnet_naming_rule.public_fields_should_be_PascalCase.symbols = public_fields
-dotnet_naming_rule.public_fields_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.public_fields_should_be_camelCase.severity = warning
+dotnet_naming_rule.public_fields_should_be_camelCase.symbols = public_fields
+dotnet_naming_rule.public_fields_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.public_fields_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.public_fields_should_be_PascalCase.symbols = public_fields
@@ -255,9 +252,9 @@ dotnet_naming_rule.private_fields_should_be__camelCase.style = _camelCase
 dotnet_naming_symbols.public_constant_fields.applicable_kinds = field
 dotnet_naming_symbols.public_constant_fields.applicable_accessibilities = public, internal
 dotnet_naming_symbols.public_constant_fields.required_modifiers = const
-dotnet_naming_rule.public_constant_fields_should_be_PascalCase.severity = warning
-dotnet_naming_rule.public_constant_fields_should_be_PascalCase.symbols = public_constant_fields
-dotnet_naming_rule.public_constant_fields_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.public_constant_fields_should_be_SCREAMING_SNAKE_CASE.severity = warning
+dotnet_naming_rule.public_constant_fields_should_be_SCREAMING_SNAKE_CASE.symbols = public_constant_fields
+dotnet_naming_rule.public_constant_fields_should_be_SCREAMING_SNAKE_CASE.style = SCREAMING_SNAKE_CASE
 ### default
 # dotnet_naming_rule.public_constant_fields_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.public_constant_fields_should_be_PascalCase.symbols = public_constant_fields
@@ -268,9 +265,9 @@ dotnet_naming_rule.public_constant_fields_should_be_PascalCase.style = PascalCas
 dotnet_naming_symbols.private_constant_fields.applicable_kinds = field
 dotnet_naming_symbols.private_constant_fields.applicable_accessibilities = private, protected, protected_internal, private_protected
 dotnet_naming_symbols.private_constant_fields.required_modifiers = const
-dotnet_naming_rule.private_constant_fields_should_be_PascalCase.severity = warning
-dotnet_naming_rule.private_constant_fields_should_be_PascalCase.symbols = private_constant_fields
-dotnet_naming_rule.private_constant_fields_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.private_constant_fields_should_be_SCREAMING_SNAKE_CASE.severity = warning
+dotnet_naming_rule.private_constant_fields_should_be_SCREAMING_SNAKE_CASE.symbols = private_constant_fields
+dotnet_naming_rule.private_constant_fields_should_be_SCREAMING_SNAKE_CASE.style = SCREAMING_SNAKE_CASE
 ### default
 # dotnet_naming_rule.private_constant_fields_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.private_constant_fields_should_be_PascalCase.symbols = private_constant_fields
@@ -281,9 +278,9 @@ dotnet_naming_rule.private_constant_fields_should_be_PascalCase.style = PascalCa
 dotnet_naming_symbols.public_static_readonly_fields.applicable_kinds = field
 dotnet_naming_symbols.public_static_readonly_fields.applicable_accessibilities = public, internal
 dotnet_naming_symbols.public_static_readonly_fields.required_modifiers = readonly, static
-dotnet_naming_rule.public_static_readonly_fields_should_be_PascalCase.severity = warning
-dotnet_naming_rule.public_static_readonly_fields_should_be_PascalCase.symbols = public_static_readonly_fields
-dotnet_naming_rule.public_static_readonly_fields_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.public_static_readonly_fields_should_be_camelCase.severity = warning
+dotnet_naming_rule.public_static_readonly_fields_should_be_camelCase.symbols = public_static_readonly_fields
+dotnet_naming_rule.public_static_readonly_fields_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.public_static_readonly_fields_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.public_static_readonly_fields_should_be_PascalCase.symbols = public_static_readonly_fields
@@ -294,9 +291,9 @@ dotnet_naming_rule.public_static_readonly_fields_should_be_PascalCase.style = Pa
 dotnet_naming_symbols.private_static_readonly_fields.applicable_kinds = field
 dotnet_naming_symbols.private_static_readonly_fields.applicable_accessibilities = private, protected, protected_internal, private_protected
 dotnet_naming_symbols.private_static_readonly_fields.required_modifiers = readonly, static
-dotnet_naming_rule.private_static_readonly_fields_should_be_PascalCase.severity = warning
-dotnet_naming_rule.private_static_readonly_fields_should_be_PascalCase.symbols = private_static_readonly_fields
-dotnet_naming_rule.private_static_readonly_fields_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.private_static_readonly_fields_should_be_camelCase.severity = warning
+dotnet_naming_rule.private_static_readonly_fields_should_be_camelCase.symbols = private_static_readonly_fields
+dotnet_naming_rule.private_static_readonly_fields_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.private_static_readonly_fields_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.private_static_readonly_fields_should_be_PascalCase.symbols = private_static_readonly_fields
@@ -316,9 +313,9 @@ dotnet_naming_rule.enums_should_be_PascalCase.style = PascalCase
 dotnet_naming_symbols.local_functions.applicable_kinds = local_function
 dotnet_naming_symbols.local_functions.applicable_accessibilities = *
 dotnet_naming_symbols.local_functions.required_modifiers =
-dotnet_naming_rule.local_functions_should_be_PascalCase.severity = warning
-dotnet_naming_rule.local_functions_should_be_PascalCase.symbols = local_functions
-dotnet_naming_rule.local_functions_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.local_functions_should_be_camelCase.severity = warning
+dotnet_naming_rule.local_functions_should_be_camelCase.symbols = local_functions
+dotnet_naming_rule.local_functions_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.local_functions_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.local_functions_should_be_PascalCase.symbols = local_functions
@@ -329,9 +326,9 @@ dotnet_naming_rule.local_functions_should_be_PascalCase.style = PascalCase
 dotnet_naming_symbols.delegates.applicable_kinds = delegate
 dotnet_naming_symbols.delegates.applicable_accessibilities = *
 dotnet_naming_symbols.delegates.required_modifiers =
-dotnet_naming_rule.delegates_should_be_PascalCase.severity = warning
-dotnet_naming_rule.delegates_should_be_PascalCase.symbols = delegates
-dotnet_naming_rule.delegates_should_be_PascalCase.style = PascalCase
+dotnet_naming_rule.delegates_should_be_camelCase.severity = warning
+dotnet_naming_rule.delegates_should_be_camelCase.symbols = delegates
+dotnet_naming_rule.delegates_should_be_camelCase.style = camelCase
 ### default
 # dotnet_naming_rule.delegates_should_be_PascalCase.severity = suggestion
 # dotnet_naming_rule.delegates_should_be_PascalCase.symbols = delegates
