@@ -715,3 +715,9 @@ dotnet_diagnostic.IDE0076.severity = warning
 ## avoid legacy format target in global 'SuppressMessageAttribute'
 
 dotnet_diagnostic.IDE0077.severity = warning
+
+# CSharpier
+
+## disable formatting rules that conflict with CSharpier
+
+dotnet_diagnostic.IDE0055.severity = none
