@@ -501,8 +501,9 @@ csharp_style_prefer_tuple_swap = true # default: true
 
 ## namespace declaration preferences
 
-dotnet_diagnostic.IDE0160.severity = warning
-csharp_style_namespace_declarations = block_scoped # default: block_scoped
+dotnet_diagnostic.IDE0160.severity = none
+dotnet_diagnostic.IDE0161.severity = warning
+csharp_style_namespace_declarations = file_scoped # default: block_scoped
 
 ## null-checking preferences
 
