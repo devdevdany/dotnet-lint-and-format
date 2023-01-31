@@ -8,7 +8,7 @@ root = true
 [*]
 indent_style = space # default: space
 indent_size = 2 # default: 4 for cs
-end_of_line = crlf # default: crlf
+end_of_line = lf # default: crlf
 charset = utf-8 # default: utf-8-bom, DISCOURAGED
 trim_trailing_whitespace = true # default: ???
 insert_final_newline = true # default: false
