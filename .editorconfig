@@ -41,8 +41,10 @@ csharp_new_line_before_open_brace = all # default: all
 csharp_new_line_before_else = true # default: true
 csharp_new_line_before_catch = true # default: true
 csharp_new_line_before_finally = true # default: true
-csharp_new_line_before_members_in_object_initializers = true # default: true
-csharp_new_line_before_members_in_anonymous_types = true # default: true
+### CSharpier takes care of this when the line approaches `max_line_length`
+csharp_new_line_before_members_in_object_initializers = false # default: true
+### CSharpier takes care of this when the line approaches `max_line_length`
+csharp_new_line_before_members_in_anonymous_types = false # default: true
 csharp_new_line_between_query_expression_clauses = true # default: true
 
 ## indentation options
