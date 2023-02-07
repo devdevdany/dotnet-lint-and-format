@@ -1,7 +1,10 @@
 # https://editorconfig-specification.readthedocs.io
 
-# default editorconfig
+# default editorconfig options
 ## https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options#example-editorconfig-file
+
+# default editorconfig template
+## https://github.com/dotnet/sdk/blob/main/template_feed/Microsoft.DotNet.Common.ItemTemplates/content/EditorConfig/Dotnet/.editorconfig
 
 root = true
 
