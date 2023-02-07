@@ -9,6 +9,9 @@
 # default editorconfig template
 ## https://github.com/dotnet/sdk/blob/main/template_feed/Microsoft.DotNet.Common.ItemTemplates/content/EditorConfig/Dotnet/.editorconfig
 
+# default naming conventions
+## https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions#naming-conventions
+
 root = true
 
 [*]
