@@ -366,7 +366,7 @@ dotnet_style_predefined_type_for_member_access = true # default: true:silent
 ### order modifiers
 
 dotnet_diagnostic.IDE0036.severity = warning
-# default: public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:silent
+# default: public,private,protected,internal,static,extern,new,virtual,abstract,sealed,override,readonly,unsafe,volatile,async:suggestion
 csharp_preferred_modifier_order = public, private, protected, internal, file, static, extern, new, virtual, abstract, sealed, override, readonly, unsafe, volatile, async
 
 ### add accessibility modifiers
@@ -377,7 +377,7 @@ dotnet_style_require_accessibility_modifiers = for_non_interface_members # defau
 ### add readonly modifier
 
 dotnet_diagnostic.IDE0044.severity = warning
-dotnet_style_readonly_field = true # default: true:warning
+dotnet_style_readonly_field = true # default: true:suggestion
 
 ### make local function static
 
@@ -420,7 +420,7 @@ dotnet_style_collection_initializer = true # default: true:suggestion
 ### use auto-implemented property
 
 dotnet_diagnostic.IDE0032.severity = warning
-dotnet_style_prefer_auto_properties = true # default: true:suggestion
+dotnet_style_prefer_auto_properties = true # default: true:silent
 
 ### use explicitly provided tuple name
 
@@ -451,12 +451,12 @@ csharp_style_deconstructed_variable_declaration = true # default: true:suggestio
 ### use conditional expression for assignment
 
 dotnet_diagnostic.IDE0045.severity = warning
-dotnet_style_prefer_conditional_expression_over_assignment = true # default: true:suggestion
+dotnet_style_prefer_conditional_expression_over_assignment = true # default: true:silent
 
 ### use conditional expression for return
 
 dotnet_diagnostic.IDE0046.severity = warning
-dotnet_style_prefer_conditional_expression_over_return = true # default: true:suggestion
+dotnet_style_prefer_conditional_expression_over_return = true # default: true:silent
 
 ### convert anonymous type to tuple
 
@@ -536,7 +536,7 @@ dotnet_style_null_propagation = true # default: true:suggestion
 ### use 'is null' check
 
 dotnet_diagnostic.IDE0041.severity = warning
-dotnet_style_prefer_is_null_check_over_reference_equality_method = true # default: true:suggestion
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true # default: true:silent
 
 ### prefer 'null' check over type check
 
