@@ -1,4 +1,4 @@
-# EditorConfig documentation
+# EditorConfig specification
 ## https://editorconfig-specification.readthedocs.io
 
 # Code-style rules documentation
@@ -22,7 +22,7 @@ root = true
 [*]
 indent_style = space # default: space
 charset = utf-8 # default: utf-8-bom, DISCOURAGED
-trim_trailing_whitiespace = true # default: ???
+trim_trailing_whitespace = true # default: ???
 max_line_length = 80 # default: ???
 
 # Xml files
@@ -208,9 +208,9 @@ csharp_using_directive_placement = outside_namespace:warning # default: outside_
 csharp_new_line_before_catch = true # default: true
 csharp_new_line_before_else = true # default: true
 csharp_new_line_before_finally = true # default: true
-## CSharpier takes care of this when the line approaches `max_line_length`
+## CSharpier takes care of this when the line approaches `printWidth`
 csharp_new_line_before_members_in_anonymous_types = false # default: true
-## CSharpier takes care of this when the line approaches `max_line_length`
+## CSharpier takes care of this when the line approaches `printWidth`
 csharp_new_line_before_members_in_object_initializers = false # default: true
 csharp_new_line_before_open_brace = all # default: all
 csharp_new_line_between_query_expression_clauses = true # default: true
