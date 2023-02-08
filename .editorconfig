@@ -1,19 +1,19 @@
-# Editorconfig documentation
+# EditorConfig documentation
 ## https://editorconfig-specification.readthedocs.io
 
-# Style rules documentation
+# Code-style rules documentation
 ## https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/
 
-# Default editorconfig options
+# Example EditorConfig file with the default options
 ## https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options#example-editorconfig-file
 
-# Default editorconfig template
+# Default EditorConfig template
 ## https://github.com/dotnet/sdk/blob/main/template_feed/Microsoft.DotNet.Common.ItemTemplates/content/EditorConfig/Dotnet/.editorconfig
 
-# Default naming conventions
+# C# Naming conventions
 ## https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions#naming-conventions
 
-# Naming rules
+# Code-style naming rules
 ## https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/naming-rules
 
 root = true
