@@ -23,7 +23,7 @@ root = true
 indent_style = space # default: space
 charset = utf-8 # default: utf-8-bom, DISCOURAGED
 trim_trailing_whitespace = true # default: ???
-max_line_length = 80 # default: ???
+max_line_length = 100 # default: ???
 
 # Xml files
 [*.{xml,csproj}]
