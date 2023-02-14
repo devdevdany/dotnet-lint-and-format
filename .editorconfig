@@ -430,7 +430,7 @@ dotnet_naming_rule.local_variables_should_be_camelCase.style = camelCase
 dotnet_naming_symbols.local_constants.applicable_kinds = local
 dotnet_naming_symbols.local_constants.applicable_accessibilities = local
 dotnet_naming_symbols.local_constants.required_modifiers = const
-dotnet_naming_rule.local_constants_should_be_camelCase.severity = warning  # default: suggestion
+dotnet_naming_rule.local_constants_should_be_camelCase.severity = warning # default: suggestion
 dotnet_naming_rule.local_constants_should_be_camelCase.symbols = local_constants
 dotnet_naming_rule.local_constants_should_be_camelCase.style = camelCase
 
