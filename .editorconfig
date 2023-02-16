@@ -23,13 +23,13 @@ root = true
 indent_style = space # default: space
 charset = utf-8 # default: utf-8-bom, DISCOURAGED
 trim_trailing_whitespace = true # default: ???
-max_line_length = 100 # default: ???
 
 # Xml files
 [*.{xml,csproj}]
 indent_size = 2 # default: 2
 end_of_line = lf # default: ???
 insert_final_newline = true # default: ???
+max_line_length = 80 # default: ???
 
 # C# files
 [*.cs]
@@ -43,6 +43,7 @@ tab_width = 4 # default: 4
 # New line preferences
 end_of_line = lf # default: crlf
 insert_final_newline = true # default: false
+max_line_length = 100 # default: ???
 
 #### .NET Coding Conventions ####
 
