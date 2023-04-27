@@ -48,7 +48,8 @@ max_line_length = 100 # default: ???
 #### .NET Coding Conventions ####
 
 ## Namespace preferences
-dotnet_style_namespace_match_folder = true # default: ???
+dotnet_diagnostic.IDE0130.severity = warning
+dotnet_style_namespace_match_folder = true # default: true
 
 # Organize usings
 dotnet_separate_import_directive_groups = true # default: true
