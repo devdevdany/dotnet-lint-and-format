@@ -454,6 +454,13 @@ dotnet_diagnostic.IDE0100.severity = warning
 # Remove unnecessary discard
 dotnet_diagnostic.IDE0110.severity = warning
 
+# Simplify LINQ expression
+dotnet_diagnostic.IDE0120.severity = warning
+
+# Remove unnecessary lambda expression
+dotnet_diagnostic.IDE0200.severity = warning
+csharp_style_prefer_method_group_conversion = true
+
 #### Miscellaneous Rules ####
 
 # Remove invalid global 'SuppressMessageAttribute'
