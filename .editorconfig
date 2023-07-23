@@ -459,6 +459,7 @@ dotnet_diagnostic.IDE0120.severity = warning
 
 # Remove unnecessary lambda expression
 dotnet_diagnostic.IDE0200.severity = warning
+## default: true
 csharp_style_prefer_method_group_conversion = true
 
 #### Miscellaneous Rules ####
