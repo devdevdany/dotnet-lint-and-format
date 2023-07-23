@@ -152,6 +152,9 @@ dotnet_style_prefer_simplified_boolean_expressions = true:warning
 dotnet_diagnostic.IDE0071.severity = warning
 ## default: true:suggestion
 dotnet_style_prefer_simplified_interpolation = true:warning
+dotnet_diagnostic.IDE0220.severity = warning
+## default: when_strongly_typed
+dotnet_style_prefer_foreach_explicit_cast_in_source = when_strongly_typed
 
 # Field preferences
 dotnet_diagnostic.IDE0044.severity = warning
@@ -278,6 +281,9 @@ csharp_style_unused_value_assignment_preference = discard_variable:warning
 dotnet_diagnostic.IDE0058.severity = warning
 ## default: discard_variable:silent
 csharp_style_unused_value_expression_statement_preference = discard_variable:warning
+dotnet_diagnostic.IDE0230.severity = warning
+## default: true
+csharp_style_prefer_utf8_string_literals = true
 
 # 'using' directive preferences
 dotnet_diagnostic.IDE0065.severity = warning
