@@ -243,6 +243,10 @@ csharp_prefer_braces = true:warning
 dotnet_diagnostic.IDE0063.severity = warning
 ## default: true:suggestion
 csharp_prefer_simple_using_statement = true:warning
+dotnet_diagnostic.IDE0210.severity = warning
+dotnet_diagnostic.IDE0211.severity = none
+## default: true
+csharp_style_prefer_top_level_statements = true
 
 # Expression-level preferences
 dotnet_diagnostic.IDE0034.severity = warning
