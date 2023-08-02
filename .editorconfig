@@ -563,6 +563,12 @@ dotnet_diagnostic.IDE0251.severity = warning
 #### default: true
 csharp_style_prefer_readonly_struct_member = true
 
+### Use pattern matching
+dotnet_diagnostic.IDE0260.severity = warning
+
+### Null check can be simplified
+dotnet_diagnostic.IDE0270.severity = warning
+
 ### Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 #### default: true
