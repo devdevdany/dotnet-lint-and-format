@@ -547,6 +547,22 @@ dotnet_diagnostic.IDE0230.severity = warning
 #### default: true
 csharp_style_prefer_utf8_string_literals = true
 
+### Nullable directive is redundant
+dotnet_diagnostic.IDE0240.severity = warning
+
+### Nullable directive is unnecessary
+dotnet_diagnostic.IDE0241.severity = warning
+
+### Struct can be made 'readonly'
+dotnet_diagnostic.IDE0250.severity = warning
+#### default: true
+csharp_style_prefer_readonly_struct = true
+
+### Member can be made 'readonly'
+dotnet_diagnostic.IDE0251.severity = warning
+#### default: true
+csharp_style_prefer_readonly_struct_member = true
+
 ### Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 #### default: true
