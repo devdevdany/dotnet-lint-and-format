@@ -569,6 +569,9 @@ dotnet_diagnostic.IDE0260.severity = warning
 ### Null check can be simplified
 dotnet_diagnostic.IDE0270.severity = warning
 
+### Use `nameof`
+dotnet_diagnostic.IDE0280.severity = warning
+
 ### Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 #### default: true
