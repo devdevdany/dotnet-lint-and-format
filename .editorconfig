@@ -572,6 +572,11 @@ dotnet_diagnostic.IDE0270.severity = warning
 ### Use `nameof`
 dotnet_diagnostic.IDE0280.severity = warning
 
+### Use primary constructor
+dotnet_diagnostic.IDE0290.severity = warning
+#### default: true
+csharp_style_prefer_primary_constructors = true
+
 ### Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 #### default: true
