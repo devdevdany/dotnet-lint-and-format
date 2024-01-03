@@ -171,6 +171,8 @@ csharp_style_expression_bodied_accessors = true
 dotnet_diagnostic.IDE0028.severity = warning
 #### default: true
 dotnet_style_collection_initializer = true
+#### default: true
+dotnet_style_prefer_collection_expression = true
 
 ### Use coalesce expression (non-nullable types)
 dotnet_diagnostic.IDE0029.severity = warning
