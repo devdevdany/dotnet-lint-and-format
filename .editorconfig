@@ -582,6 +582,9 @@ csharp_style_prefer_primary_constructors = true
 ### Use collection expression for array
 dotnet_diagnostic.IDE0300.severity = warning
 
+### Use collection expression for empty
+dotnet_diagnostic.IDE0301.severity = warning
+
 ### Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 #### default: true
