@@ -594,6 +594,9 @@ dotnet_diagnostic.IDE0303.severity = warning
 ### Use collection expression for builder
 dotnet_diagnostic.IDE0304.severity = warning
 
+### Use collection expression for fluent
+dotnet_diagnostic.IDE0305.severity = warning
+
 ### Use conditional delegate call
 dotnet_diagnostic.IDE1005.severity = warning
 #### default: true
